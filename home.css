@@ -2655,7 +2655,7 @@ html {
   .transition__content.is--bg-yellow {
     perspective-origin: 50% 100%;
     transform-origin: 50% 100%;
-    background-color: #eb0045;
+    background-color: #E34234;
   }
   
   .overflow-hidden {
@@ -3699,6 +3699,7 @@ html {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-bottom: 90px;
   }
   
   .tittle__parent {
@@ -8285,7 +8286,8 @@ html {
   display: flex;
   flex-direction: row;
   column-gap: 40px;
-margin: 10px 70px 90px 70px;
+  padding: 10px 70px 90px 70px;
+  background-color: #f5f4f4;
 
   
 }
@@ -8294,12 +8296,14 @@ margin: 10px 70px 90px 70px;
   padding: 65px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
+  background-color: white;
   
 }
 .container2 .box_data .user{
 display: flex;
 flex-direction: row;
 text-align: center;
+margin-top: 20px;
 }
 .container2 .box_data .user .info h5{
   padding-top: 15px;
@@ -8312,12 +8316,16 @@ text-align: center;
 
 .container2 .box_data .rating{
   padding: 0 0 35px 0;
+
 }
 
 .container2 .box_data img{
   width: 70px;
-  border-radius: 70%;
+  /* border-radius: 70%; */
   margin: 15px;
+}
+.user img{
+  border-radius: 50%;
 }
 
 
