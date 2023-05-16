@@ -2649,7 +2649,7 @@ html {
   .transition__content.is--bg-yellow {
     perspective-origin: 50% 100%;
     transform-origin: 50% 100%;
-    background-color: #dbff00;
+    background-color: #eb0045;
   }
 
   .overflow-hidden {
