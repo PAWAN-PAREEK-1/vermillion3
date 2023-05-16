@@ -2655,7 +2655,7 @@ html {
   .transition__content.is--bg-yellow {
     perspective-origin: 50% 100%;
     transform-origin: 50% 100%;
-    background-color: #E34234;
+    background-color: #eb0045;
   }
 
   .overflow-hidden {
@@ -3459,11 +3459,11 @@ html {
   .steps__button--yellow {
     width: auto;
     height: auto;
-    background-color: #E34234;
+    background-color: #eb0045;
     border-radius: 1rem;
     justify-content: flex-start;
     margin-bottom: 1.5rem;
-    padding: .1rem .9rem;
+    padding: .5rem 1rem;
     display: flex;
   }
 

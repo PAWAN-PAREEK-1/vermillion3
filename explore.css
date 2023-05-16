@@ -4403,7 +4403,7 @@ html {
   }
 
   .text__wrapper {
-    width: 24.5rem;
+    width: 100%;
     height: auto;
     flex-direction: column;
     justify-content: space-between;
@@ -5512,7 +5512,7 @@ html {
 
   .p--gtalphina {
     font-family: Gtalpina, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .p--gtalphina.z-index--2 {
