@@ -8249,4 +8249,7 @@ html {
     font-display: swap;
   }
 
+  .founder-role,.founder_name {
+    color: black;
+  }
 
