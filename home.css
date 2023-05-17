@@ -2312,7 +2312,7 @@ html {
   .section.is--two {
     height: auto;
     background-color: #f5f4f4;
-    padding-top: 3rem;
+    padding-top: 0rem !important;
   }
 
   .section.is--three {
@@ -3242,6 +3242,7 @@ html {
     position: relative;
     top: 0;
     overflow: hidden;
+    height: 1000px;
   }
 
   .hero__image--bg {
