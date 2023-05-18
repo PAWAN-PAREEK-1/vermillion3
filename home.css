@@ -5887,7 +5887,7 @@ html {
     }
 
     .navbar__logo {
-      width: 8.1rem;
+      width: 15rem;
       height: 2.2rem;
     }
 
@@ -6321,7 +6321,7 @@ html {
       height: 2px;
       perspective-origin: 0%;
       transform-origin: 0%;
-      background-color: #000;
+      background-color: white;
       padding-bottom: 0;
       padding-right: 0;
     }
@@ -6634,7 +6634,7 @@ html {
     }
 
     .navbar__logo {
-      width: 5.9rem;
+      width: 10rem;
       height: 1.6rem;
     }
 
@@ -7412,7 +7412,7 @@ html {
     }
 
     .navbar__logo {
-      width: 4.9rem;
+      width: 8rem;
       height: 1.3rem;
     }
 
@@ -7895,7 +7895,7 @@ html {
     }
 
     .burger__line.is--two {
-      margin-top: .3rem;
+      margin-top: -15px;
       margin-bottom: .3rem;
     }
 
