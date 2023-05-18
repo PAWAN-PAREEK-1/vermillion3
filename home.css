@@ -2297,7 +2297,7 @@ h5 {
 }
 
 h6 {
-  color: #000;
+  color: white;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.125rem;
@@ -3689,7 +3689,7 @@ blockquote {
   z-index: 2;
   width: 100%;
   height: auto;
-  background-color: #ff6b3b;
+  background-color: #eb0045;
   border-radius: 1rem;
   justify-content: space-between;
   margin-top: 7rem;
@@ -8473,7 +8473,7 @@ blockquote {
 }
 
 .container2 .box_data {
-  padding: 65px;
+  padding: 45px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   background-color: white;
@@ -8484,7 +8484,7 @@ blockquote {
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 32px;
 }
 
 .container2 .box_data .user .info h5 {
@@ -8519,7 +8519,20 @@ blockquote {
 }
 
 
+.box_data {
+  flex: 1 1 300px; /* Set the desired width for each box */
+  height: 600px; /* Set the desired height for each box */
+}
 
+
+.info h5{
+  margin-top: 9px; margin-right: 70px;
+}
+
+.info p{
+  padding-right: 30px; padding-top: 6px;
+  font-size: 15px !important;
+}
 
 /* -------------------------------------------------------------------------------containt changing css */
 
