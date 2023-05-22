@@ -7443,6 +7443,7 @@ blockquote {
 
   .section.is--three {
     overflow: hidden;
+    padding-top: 0px;
   }
 
   .section.is--five {
@@ -7702,6 +7703,7 @@ blockquote {
   .box__-wrapper.is--one {
     height: auto;
     padding-top: 2.25rem;
+    margin-bottom: 0px;
   }
 
   .box__-wrapper.is--one.is--data {
@@ -7877,7 +7879,11 @@ blockquote {
   .hero__title.is--two,
   .hero__title.is--one {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.8rem;
+  }
+
+  .hero__title.is--one{
+    margin-bottom: 12px;
   }
 
   .steps__tittle {
@@ -8693,7 +8699,13 @@ blockquote {
   .window__wrapper .navbar__link-parent h5 {
     font-size: 20px;
   }
-
+  /* .heading-top{
+    margin-bottom: 10px;
+    font-size: 23px;
+  }
+  .heading-bottom{
+    font-size: 23px;
+  } */
 }
 
 
