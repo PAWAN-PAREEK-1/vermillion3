@@ -884,6 +884,11 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+
+  .section.is-home {
+    /* padding-top: 5.7rem; */
+    padding-bottom: 0.7rem;
+  }
   .w-container {
     max-width: 728px;
   }
@@ -2115,6 +2120,12 @@ textarea.w-select {
 
   .w-nav-brand {
     padding-left: 10px;
+  }
+
+  .role-name {
+
+    font-size: .5rem;
+
   }
 }
 
@@ -4228,7 +4239,7 @@ blockquote {
 .role-name {
   white-space: nowrap;
   font-family: Gtalpina, sans-serif;
-  font-size: .9rem;
+  font-size: .9 rem;
   font-weight: 700PX;
 }
 
@@ -5842,6 +5853,21 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
+
+.ani1{
+  display: none;
+}
+
+.ani2{
+  display: none;
+}
+
+.ani3{
+  display: none;
+}
+
+
+
   body {
     font-size: 14px;
   }
@@ -6249,7 +6275,7 @@ blockquote {
   .team__list {
     grid-column-gap: 28px;
     grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .founder__quote {
@@ -6609,6 +6635,10 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
+  .section.is-home {
+    /* padding-top: 5.7rem; */
+    padding-bottom: 0rem;
+  }
   h1 {
     font-size: 3.3rem;
   }
@@ -7034,7 +7064,7 @@ blockquote {
 
   .team__list {
     grid-template-rows: auto auto auto auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .founder__quote {
@@ -7341,6 +7371,9 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
+
+
+
   h1 {
     letter-spacing: -.1rem;
     font-size: 2.1rem;
@@ -7412,8 +7445,8 @@ blockquote {
   }
 
   .section.is-home {
-    padding-top: 5.7rem;
-    padding-bottom: 5.7rem;
+    /* padding-top: 5.7rem; */
+    padding-bottom: 0rem;
   }
 
   .section.is-about-two {
@@ -8426,4 +8459,19 @@ blockquote {
 .founder-role,
 .founder_name {
   color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .section.is-home {
+    /* padding-top: 5.7rem; */
+    padding-bottom: 0rem;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .section.is-home {
+    /* padding-top: 5.7rem; */
+    padding-bottom: 0rem;
+  }
 }
