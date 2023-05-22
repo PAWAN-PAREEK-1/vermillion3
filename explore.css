@@ -7342,6 +7342,15 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
+
+  .window__wrapper .navbar__link-parent h5 {
+    font-size: 20px;
+  }
+
+  .application-text--wrapper{
+    padding-bottom: 2.4rem;
+  }
+
   h1 {
     letter-spacing: -.1rem;
     font-size: 2.1rem;
@@ -8257,7 +8266,7 @@ blockquote {
   .application-ig--wrapper {
     grid-column-gap: .5rem;
     grid-row-gap: .5rem;
-    padding: .5rem;
+    padding: .5rem .5rem 2rem .5rem;
   }
 }
 

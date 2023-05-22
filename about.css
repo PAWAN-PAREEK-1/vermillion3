@@ -3540,6 +3540,7 @@ blockquote {
 .box__tittle.is--data {
   color: #000;
   margin-bottom: .5rem;
+  text-align: left;
 }
 
 .box__p {
@@ -7373,6 +7374,20 @@ blockquote {
 @media screen and (max-width: 479px) {
 
 
+  .window__wrapper .navbar__link-parent h5 {
+    font-size: 20px;
+  }
+
+
+  .section.is-team{
+    padding-bottom: 1rem;
+  }
+
+  .k200{
+    display: none;
+  }
+
+
 
   h1 {
     letter-spacing: -.1rem;
@@ -8463,15 +8478,18 @@ blockquote {
 
 @media screen and (max-width: 767px) {
   .section.is-home {
-    /* padding-top: 5.7rem; */
+    padding-top: 5.7rem;
     padding-bottom: 0rem;
+  }
+  .k200{
+    display: none;
   }
 }
 
 
 @media screen and (max-width: 991px) {
   .section.is-home {
-    /* padding-top: 5.7rem; */
+    padding-top: 5.7rem;
     padding-bottom: 0rem;
   }
 }

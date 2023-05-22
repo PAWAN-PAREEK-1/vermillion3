@@ -8690,6 +8690,10 @@ blockquote {
   #container3{
     background-color: black;
   }
+  .window__wrapper .navbar__link-parent h5 {
+    font-size: 20px;
+  }
+
 }
 
 
