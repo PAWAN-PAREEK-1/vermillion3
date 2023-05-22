@@ -3446,13 +3446,16 @@ blockquote {
 
 .box__-wrapper {
   width: 100%;
-  height: 31.7rem;
+
   background-color: #fff;
   border-radius: 1rem;
   flex-direction: column;
   justify-content: space-between;
-  padding: 3.75rem 1.625rem 2.25rem 1.5625rem;
+  padding: 1rem 1.625rem 2.25rem 1.5625rem;
   display: flex;
+}
+.box__text--wrapper{
+  margin-top: 55px;
 }
 
 .box__-wrapper.is--one {
@@ -3503,10 +3506,8 @@ blockquote {
 .box__image--wrapper {
   width: 100%;
   height: 12rem;
-  justify-content: center;
-  align-items: center;
-
-  display: flex;
+  display: grid;
+  place-items: center;
 }
 
 .box__image--wrapper.is--data {
@@ -7731,7 +7732,7 @@ blockquote {
 
   .box__image--wrapper {
 
-    padding-left: 14px;
+
     padding-right: 0;
   }
 
@@ -8299,6 +8300,19 @@ blockquote {
     grid-row-gap: .5rem;
     padding: .5rem;
   }
+
+
+
+}
+
+
+
+@media screen and (max-width:479px){
+  .info h5 {
+
+    padding-top: 0;
+  }
+
 }
 
 #w-node-_58de72d8-f8c8-54b7-ae84-04a781abcf44-e520a472,
@@ -8579,13 +8593,71 @@ blockquote {
 
 
 
+@media screen and (max-width: 500px){
+  .container2 .box_data .user .emily h5{
+    padding-top: 10px;
+
+  }
+}
+@media screen and (max-width: 479px) {
+  .container2 .box_data .user .info h5{
+    margin-right :34px ;
+  }
+  .container2 .box_data .user .info p{
+    padding-right: 44px;
+  }
+
+  .container2 .box_data .user .neha h5 {
+    margin-right: 41px;
+  }
+  .container2 .box_data .user .emily h5{
+    padding-top: 10px;
+    margin-right: 38px;
+
+  }
+  .container2 .box_data .user .emily p{
+    margin-right: 21px;
+    padding-right: 0px;
+  }
+
+  .container2 .box_data .user .neha p{
+    padding-right: 0px;
+  }
 
 
+}
+@media screen and (max-width: 379px) {
+  .container2 .box_data .user .info h5{
+    margin-right :17px ;
+  }
+  .container2 .box_data .user .info p{
+    padding-right: 25px;
+  }
+
+  .container2 .box_data .user .neha h5 {
+    margin-right: 38px;
+  }
+  .container2 .box_data .user .emily h5{
+    padding-top: 10px;
+    margin-right: 27px;
+
+  }
+  .container2 .box_data .user .emily p{
+    margin-right: 52px;
+    padding-right: 0px;
+  }
+
+  .container2 .box_data .user .neha p{
+    padding-right: 70px;
+  }
+
+
+}
 
 @media screen and (max-width: 768px) {
   .container2 {
     flex-direction: column;
-    padding: 30px 0px 0 18px ;
+    padding: 30px 0px 45px 18px ;
     gap: 20px;
   }
 
@@ -8594,6 +8666,7 @@ blockquote {
     text-align: center;
     width: calc(100% - 20px);
   }
+
 }
 
 
@@ -8629,6 +8702,56 @@ blockquote {
     margin-top: -612px !important;
     margin-left: -72px !important;
   }
+  .ani3{
+    display: none;
+  }
 
 
+  .hero__image{
+    height: 750px;
+  }
+
+  .foun-img {
+    margin:0px;
+
+  }
+
+  .box__text--wrapper{
+    margin-top: 0px;
+  }
+
+  .ani2{
+    display: none;
+  }
+
+
+
+
+}
+
+
+ .emily p{
+  margin-right: 34px;
+}
+
+.emily h5{
+  margin-right: 117px;
+}
+
+.rajesh p{
+  padding-right: 80px;
+}
+@media  screen and (max-width:1200px){
+  .lottie-player .ani1 {
+   display: none;
+  }
+  .ani2{
+    display: none;
+  }
+.ani3{
+    display: none;
+  }
+  .hero__image{
+    height: 800px;
+  }
 }
