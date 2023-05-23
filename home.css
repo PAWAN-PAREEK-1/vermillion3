@@ -8641,10 +8641,10 @@ blockquote {
   }
 
   .info.rajesh {
-    margin-right: -9px;
+    margin-right: -15px;
   }
   .info.emily {
-    margin-right: -15px;
+    margin-right: -23px;
   }
 
   .container2 .box_data .user .neha h5 {
@@ -8687,6 +8687,9 @@ blockquote {
   .lootie-player {
     display: none;
 
+  }
+  .info.emily {
+    margin-right: -1px;
   }
 }
 
@@ -8778,3 +8781,4 @@ blockquote {
     height: 800px;
   }
 }
+
