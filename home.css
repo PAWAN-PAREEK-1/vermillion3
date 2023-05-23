@@ -8640,8 +8640,15 @@ blockquote {
     padding-right: 25px;
   }
 
+  .info.rajesh {
+    margin-right: -9px;
+  }
+  .info.emily {
+    margin-right: -15px;
+  }
+
   .container2 .box_data .user .neha h5 {
-    margin-right: 38px;
+    margin-right: -11px;
   }
   .container2 .box_data .user .emily h5{
     padding-top: 10px;
@@ -8653,9 +8660,9 @@ blockquote {
     padding-right: 0px;
   }
 
-  .container2 .box_data .user .neha p{
+  /* .container2 .box_data .user .neha p{
     padding-right: 70px;
-  }
+  } */
 
 
 }
